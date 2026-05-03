@@ -1,0 +1,44 @@
+ABC CORPORATION INVOICE
+
+Invoice Number: INV-2026-001
+Invoice Date: April 15, 2026
+Due Date: May 15, 2026
+
+Bill To:
+Tech Solutions Inc.
+123 Business Street
+New York, NY 10001
+
+Ship To:
+Tech Solutions Inc.
+123 Business Street
+New York, NY 10001
+
+Vendor: ABC Corporation
+Address: 456 Industrial Ave, Suite 200
+Los Angeles, CA 90210
+Phone: (555) 123-4567
+Email: billing@abc-corp.com
+
+Description                    Quantity    Unit Price    Amount
+---------------------------------------------------------------
+Professional Services         40 hours    $150.00       $6,000.00
+Software License              1           $2,500.00     $2,500.00
+Training & Support            20 hours    $120.00       $2,400.00
+
+Subtotal: $11,000.00
+Tax (8.25%): $907.50
+Shipping: $150.00
+
+TOTAL AMOUNT DUE: $12,057.50
+
+Payment Terms: Net 30 days
+Please make payment to: ABC Corporation
+Account: 123456789
+Routing: 021000021
+
+Thank you for your business!
+
+ABC Corporation
+Authorized Signature: ____________________
+Date: ____________________

@@ -1,0 +1,37 @@
+XYZ TRADERS LTD.
+COMMERCIAL INVOICE
+
+Invoice No: XT-2026-045
+Date: March 20, 2026
+
+From:
+XYZ Traders Ltd.
+789 Commerce Boulevard
+Chicago, IL 60601
+Phone: (312) 555-0123
+Email: accounts@xyztraders.com
+
+To:
+Global Manufacturing Corp.
+456 Production Way
+Detroit, MI 48201
+
+Item Description              Qty     Rate        Amount
+----------------------------------------------------------
+Industrial Bearings          500     $25.00      $12,500.00
+Steel Pipes (10ft)           200     $85.00      $17,000.00
+Electrical Components        150     $45.00      $6,750.00
+Safety Equipment             75      $120.00     $9,000.00
+
+Subtotal:                    $45,250.00
+Discount (5%):               ($2,262.50)
+Tax (7%):                    $2,967.50
+
+GRAND TOTAL:                 $45,955.00
+
+Payment due within 45 days.
+Bank Transfer to: XYZ Traders Ltd.
+IBAN: US12345678901234567890
+SWIFT: XYTRUS33
+
+For inquiries, contact our accounts department.

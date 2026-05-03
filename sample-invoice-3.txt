@@ -1,0 +1,28 @@
+INVOICE
+
+Invoice #: REC-2026-078
+Date: February 28, 2026
+
+Vendor: Premium Office Supplies Co.
+Address: 321 Stationery Street, Boston, MA 02101
+Phone: (617) 555-0789
+
+Customer: Downtown Law Firm
+Address: 654 Legal Avenue, Boston, MA 02108
+
+Items Purchased:
+- Legal Pads (500 sheets) - 10 packs @ $12.50 each = $125.00
+- Black Ink Pens (premium) - 50 pens @ $3.25 each = $162.50
+- File Folders (letter size) - 200 folders @ $0.75 each = $150.00
+- Desk Organizers - 5 units @ $45.00 each = $225.00
+
+Subtotal: $662.50
+Sales Tax (6.25%): $41.41
+Shipping & Handling: $25.00
+
+TOTAL: $728.91
+
+Payment Terms: Due upon receipt
+Accepted payment methods: Check, Credit Card, Bank Transfer
+
+Thank you for choosing Premium Office Supplies!
