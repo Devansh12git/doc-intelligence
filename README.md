@@ -1,135 +1,77 @@
-# 🤖 Smart AI Career Advisor
+# 📄 Document Intelligence System
 
-An intelligent AI based career guidance assistant that allows users to either upload their resume or type a skill to get personalized career suggestions powered by the **Cerebras LLM AI API**. The application features a sleek dark-mode UI built with **React + TailwindCSS** and includes an ** Node Express.js backend with PDF parsing support **.
-It is built  for students and professionals seeking smart, AI-powered career direction.
+An AI-powered Document Intelligence platform that allows users to upload documents, extract insights, and search through them efficiently. This system is designed to help users manage, analyze, and retrieve information from documents in a smart and scalable way.
 
 ---
 
 ## 🚀 Features
 
-- 📤 Upload Resume (PDF)
-- 🔍 Extract text and analyze with AI
-- 🧠 Skill-based Career Advice
-- ✨ Dark mode UI
-- 📱 Fully responsive frontend
-- ⚡ Real-time API communication with Cerebras
-- 🔙 Back-to-menu navigation
-- 🌐 Deployed-ready structure (Vercel/Render supported)
-
----
-
-## 📸 Screenshots
-
-### 🏠 Menu Page  
-Dark-themed landing screen with two clear options.
-
-### 📄 Resume Upload  
-Upload a resume and get AI-generated job role suggestions.
-
-### 🛠️ Skill-Based Advice  
-Type a skill and receive AI-generated relevant career path guidance.
+- 📤 Upload Documents (PDF, text)
+- 🔍 Search Documents by name
+- 📊 Dashboard with document statistics
+- 📄 View Document Details
+- 🧠 Extract structured data (invoice number, vendor, amount, date)
+- ⚡ Fast and responsive UI
 
 ---
 
 ## 🧰 Tech Stack
 
-| Layer      | Technology                          |
-|------------|--------------------------------------|
-| Frontend   | React, Tailwind CSS, React Router DOM |
-| Backend    | Express.js, Multer, pdfjs-dist       |
-| AI Model   | Cerebras LLM API                     |
-| Deployment | Vercel (Frontend), Render (Backend)  |
+| Layer      | Technology              |
+|------------|------------------------|
+| Frontend   | React.js               |
+| Backend    | Node.js, Express.js    |
+| Database   | MySQL                  |
+| File Upload| Multer                 |
+| Parsing    | PDF/Text extraction    |
+
+---
+
+## 📁 Project Structure
+doc-intelligence/
+├── doc-intelligence-frontend/
+│ ├── src/
+│ ├── public/
+│ └── package.json
+│
+└── doc-intelligence-backend/
+├── routes/
+├── controllers/
+├── server.js
+
 
 ---
 
 ## ⚙️ Setup Instructions
 
-### 🔧 Prerequisites
+### 🔧 Backend Setup
 
-- Node.js 18+
-- npm or yarn
-- (Optional) Vercel & Render accounts for deployment
+```bash
+cd doc-intelligence-backend
+npm install
+node server.js
+
+cd doc-intelligence-frontend
+npm install
+npm start
+
+📊 Use Cases
+Invoice processing systems
+Document search platforms
+AI-based document insights
+Enterprise document management systems
+🌟 Future Enhancements
+🔍 AI-based semantic search
+🧠 Document summarization
+🖼️ OCR for scanned documents
+💬 Chat with documents
+
 
 ---
 
-## 🧠 Backend Setup (Express)
+## ✅ After pasting, run:
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/yourusername/ai-career-advisor.git
-cd ai-career-advisor/backend
-
-# 2. Install dependencies
-npm install
-
-# 3. Add your Cerebras API key
-# Create a .env file and add:
-CEREBRAS_API_KEY=your_cerebras_api_key
-
-# 4. Start the server
-node server.js
-
-🌐 Frontend Setup (React + Tailwind)
-# 1. Move to the frontend directory
-cd ../frontend
-
-# 2. Install dependencies
-npm install
-
-# 3. Start the development server
-npm start
-
-🧠 Architecture
-
-1️⃣ Upload Resume
-User uploads a .pdf file.
-
-Backend parses the file using pdfjs-dist.
-
-Extracted text is sent to the Cerebras AI API for career analysis.
-
-2️⃣ Skill-based Query
-User enters a skill (e.g., “JavaScript”).
-
-API returns career path suggestions based on the input.
-
-🧪 Example Use Case
-Upload a resume in PDF format.
-
-Get AI-generated suggestions like:
-
-“Based on your profile, consider roles like Data Analyst or Backend Engineer.”
-
-Or enter a skill like "Cybersecurity".
-
-Receive tailored guidance like:
-
-"Consider becoming a SOC Analyst, Penetration Tester, or Security Consultant."
-
-📁 Folder Structure
-ai-career-advisor/
-├── backend/              # Node Express API + pdf parsing
-│   └── server.js
-├── frontend/             # React frontend
-│   ├── src/
-│   │   ├── pages/
-│   │   ├── App.js
-│   │   └── index.js
-│   └── tailwind.config.js
-├── README.md
-└── .env
-
-
-🌍 Deployment Notes
-Frontend: Deploy easily on Vercel using the frontend folder.
-
-Backend: Use Render or Railway to host the Node.js server.
-
-Add proper CORS settings in Express for cross-origin requests.
-
-🤝 Contributing
-Pull requests welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-📜 License
-MIT License
-
+git add README.md
+git commit -m "Updated README for Document Intelligence System"
+git push
